@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    background-image: url(images/mac.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 0px 70px;
+}
+
+.header-title{
+    font-size: 60px;
+    color: white;
+} 
+
+.header-subtitle{
+    color: white;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.button-style{
+    padding: 10px 20px;
+    background-color: white;
+    text-decoration: none;
+    font-size: 18px;
+}    
+
+.button-style:hover {
+    background-color: #e0dada;
+}
+
+.about-container{
+    margin: 120px 50px;
+}
+
+.about-title{
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.card-image{
+    width: 100px;
+}
+
+.card{
+    text-align: center;
+}
+
+.card:hover{
+    background-color: #ededed;
+    border-radius: 10px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 4px;
+}
+
+.card-text{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.work-container{
+    background-color: rgb(210, 210, 210);
+    display: flex;
+    padding: 120px 70px;
+    gap: 50px;
+}
+
+.work-text p{
+    padding: 10px 0 20px 0;
+}
+
+.work-image{
+    width: 550px;
+    border-radius: 10px;
+}
+
+.team-container{
+    text-align: center;
+    margin: 60px 50px;
+}
+
+.team-text{
+    margin: 60px 50px 80px 50px;
+}
+
+.team-card{
+    height: 400px;
+    width: 280px;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px rgb(219, 219, 219);
+}
+
+.team-card-img{
+    width: 250px;
+}
+
+.contact-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.input-field{
+    display: block;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #dcdcdc;
+    height: 40px;
+    width: 350px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    /* margin-top: 50px; */
+}
+
+.contact-container{
+    margin: 120px 50px;
+}
+
+.send-button{
+    padding: 10px 20px;
+    background-color: rgb(60, 55, 55);
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button{
+    margin-top: 40px;
+}
+
+footer{
+    background-color: rgb(43, 40, 40);
+    color: #ffffff;
+    text-align: center;
+    padding: 45px 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: wheat;
+}
